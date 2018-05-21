@@ -1,0 +1,41 @@
+body {
+    background: radial-gradient(#9696e4, #4545ee);
+    font: 1.2em;
+    width: 50%;
+    margin: 150px auto;
+    padding: 20px;
+    text-align: center;
+    min-height: 50vh;
+}
+
+#songList {
+    background: lightcyan;
+    border-radius: 10px;
+    text-align: left;
+}
+
+li {
+    padding: 30px;
+    list-style-position: inside;
+}
+
+li:hover,
+svg:hover {
+    cursor: pointer;
+}
+
+.far:hover {
+    cursor: pointer;
+}
+
+#controls {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 1.5;
+    background: lightcyan;
+}
+
+progess {
+    width: 80%;
+    margin: 10px;
+}
